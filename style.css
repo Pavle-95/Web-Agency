@@ -47,6 +47,23 @@ button:hover{
     background: var(--bela);
     color: var(--tamnoSiva);
 }
+.container{
+    width: 80%;
+    margin: auto;
+}
+.headings{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--tamnoPlava);
+}
+.headings::after{
+    display: block;
+    content: "";
+    background: var(--svetloPlava);
+    height: 2px;
+    width: 100px;
+    margin: 10px 0 25px 0;
+}
 
 /*******************
 Nav Style
@@ -95,4 +112,25 @@ header h2 span{
 header p{
     font-size: 1.2rem;
     padding: 30px;
+}
+
+/*******************
+About Style
+*******************/
+.about{
+    padding: var(--padding);
+    display: flex;
+    justify-content: space-between;
+}
+.about img{
+    width: 100%;
+    box-shadow: 10px 10px var(--tamnoPlava);
+}
+.about article{
+    flex: 0 0 48%;
+}
+.about article:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

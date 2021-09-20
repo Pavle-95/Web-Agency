@@ -168,3 +168,40 @@ About Style
 .services p{
     padding: 30px 0;
 }
+
+/*******************
+Blog Style
+*******************/
+.blog{
+    padding: var(--padding);
+    text-align: center;
+}
+.blog img{
+    width: 100%;
+}
+.blog .row{
+    display: flex;
+    justify-content: space-between;
+}
+.blog .row article{
+    flex: 0 0 30%;
+}
+.blog .row article h4{
+    padding: 20px 0;
+    font-size: 1.7rem;
+    color: var(--tamnoPlava);
+}
+.blog .row article p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.blog button{
+    background: var(--tamnoPlava);
+    color: var(--bela);
+}
+.blog button:hover{
+    cursor: pointer;
+    background: var(--bela);
+    color: var(--tamnoSiva);
+}

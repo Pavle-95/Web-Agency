@@ -134,3 +134,37 @@ About Style
     flex-direction: column;
     justify-content: center;
 }
+
+/*******************
+About Style
+*******************/
+.services{
+    padding: var(--padding);
+    background-image: linear-gradient(rgba(29, 82, 124, .8),rgba(253, 127, 69, .8)),url(./img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--bela);
+}
+.services h2{
+    color: var(--bela);
+}
+.services .container{
+    display: flex;
+}
+.services article{
+    flex: 1;
+}
+.services article:first-child{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.services article:first-child i {
+    font-size: 5rem;
+    color: var(--orange);
+    flex: 0 0 50%;
+}
+.services p{
+    padding: 30px 0;
+}
